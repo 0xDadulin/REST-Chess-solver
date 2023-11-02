@@ -1,0 +1,4 @@
+chess_env_38/
+__pycache__/
+*.pyc
+.pytest_cache/
