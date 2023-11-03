@@ -13,21 +13,21 @@ Welcome to the REST Chess Solver API! This Flask-based web service allows you to
 
 To get available moves for a chess piece from a given position:
 
-/api/v1/<chess_figure>/<current_field>
+'/api/v1/<chess_figure>/<current_field>'
 
 For example:
 
-/api/v1/queen/e4
+'/api/v1/queen/e4'
 
 ### Validate Move Endpoint
 
 To validate if a move is legal for a given chess piece from a given position to a destination:
 
-/api/v1/<chess_figure>/<current_field>/<dest_field>
+'/api/v1/<chess_figure>/<current_field>/<dest_field>'
 
 For example:
 
-/api/v1/queen/e4/g6
+'/api/v1/queen/e4/g6'
 
 ## Docker
 
@@ -37,8 +37,8 @@ You can run this API using Docker. The Docker image is available on Docker Hub:
 
 To pull the image and run:
 
-docker pull 0xdadulin/chess_solver
-docker run -p 8000:8000 0xdadulin/chess_solver
+'docker pull 0xdadulin/chess_solver'
+'docker run -p 8000:8000 0xdadulin/chess_solver'
 
 Visit `http://localhost:8000` in your browser to access the API.
 
